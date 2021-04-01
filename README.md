@@ -26,3 +26,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+# It is trash, I have to rewrite this readme!
+If you have ideas open an issue, if you want!
