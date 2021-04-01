@@ -1,32 +1,29 @@
+<p align="center">
+  <img src="https://github.com/mawoka-myblock/mawoka-myblock/raw/main/intro.gif" />
+</p>
 
-## Howdy! 👋
-I am Mawoka and I am not very good at coding (not like ➡🐱‍💻). Why I still try it?
-- **I have 🎳(fun)!**
-- I ❤ Open source 
-## My Skills:
-- 🐍 (Python)
-- GDScript ([Godot](https://godotengine.org))
-- I also run a Minecraft-Server! You can visit it if you want! (Be careful, it is 🇩🇪) But you can still come: [Discord](https://discord.gg/nf4q3jK) or the [Website](https://myblock.de.cool)!
-- Email me [mawoka-myblock@e.email](mailto:mawoka-myblock@e.email)!
-If you want to mail me, consider to encrypt it with OpenPGP: [4C1D 141D 7B92 5B1C E537 D0EC 111A 6EB8 0FA0 2AAD](https://keys.openpgp.org/vks/v1/by-fingerprint/4C1D141D7B925B1CE537D0EC111A6EB80FA02AAD)
-> I don´t know why but I love the word 'Howdy'!
+### My Main Projects are on [Gitlab](https://gitlab.com/mawoka) <img src="https://about.gitlab.com/images/press/logo/svg/gitlab-icon-rgb.svg" height="40em" align="center" alt="GitLab" title="GitLab"/>
 
+## My "Skills":
+ -  <img src="https://simpleicons.org/icons/python.svg" height="17em" align="center" alt="Python" title="Python"/> **Python:**
+	-	[PyWebIO](https://github.com/wang0618/PyWebIO) 
+	-	[FastAPI](https://fastapi.tiangolo.com) <img src="https://simpleicons.org/icons/fastapi.svg" height="17em" align="center" alt="FastAPI" title="FastAPI"/>
+- **Games:**
+	- [<img src="https://simpleicons.org/icons/minecraft.svg" height="30em" align="center" alt="Minecraft" title="Minecraft"/>](https://minecraft.net) **Minecraft:** 
+		- I am running a Minecraft-Server ([Feel free to look at it](https://myblock.de.cool))
+		- I like Bed🛏️wars⚔️
+		- 🏗️ Building awful buildings 🏢
+- <img src="https://simpleicons.org/icons/linux.svg" height="30em" align="center" alt="Linux" title="Linux"/> **Linux:**
+	- Systemadministration 
+	- I'm using Manjaro [<img src="https://manjaro.org/img/logo.svg" height="15em" align="center" alt="Manjaro" title="Manjaro"/>](https://manjaro.org) with KDE  <img src="https://kde.org/media/images/trademark_kde_gear_black_logo.png" height="15em" align="center" alt="KDE" title="KDE"/> Plasma [<img src="https://kde.org/images/plasma.svg" height="15em" align="center" alt="Plasma" title="Plasma"/>](https://kde.org/plasma-desktop)
+	- Sadly I'm kind of forced to use Windows, because EpicGames doesn't support Linux 😥
+	- On my servers I am using Debian  [<img src="https://www.debian.org/logos/openlogo-nd.svg" height="15em" align="center" alt="Debian" title="Debian"/>](https://debian.org)
+## Other stuff:
+- **Privacy:**
+	- It isn't really a skill, but it is something I really like  💓
+- **Tools I use regularly:**
+	- Android [<img src="https://simpleicons.org/icons/android.svg" height="20em" align="center" alt="Android" title="Android"/>](https://www.android.com/)
+	- PyCharm [<img src="https://simpleicons.org/icons/pycharm.svg" height="20em" align="center" alt="PyCharm" title="PyCharm"/>](https://www.jetbrains.com/pycharm/)
+	- Vikunja [<img src="https://kolaente.dev/vikunja/frontend/raw/branch/main/public/favicon.ico" height="20em" align="center" alt="Vikunja" title="Vikunja"/>](https://vikunja.io)
 
-<!--
-**mawoka-myblock/mawoka-myblock** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
-
-# It is trash, I have to rewrite this readme!
-If you have ideas open an issue, if you want!
+*Right now I am working on an application to learn vocab, but I don't know if I should make it Open-Source, because maybe some students can have a look at the code and find "hacks" which I also know. What dou you think, should I make it Open-Source?*
