@@ -26,4 +26,5 @@
 	- PyCharm [<img src="https://simpleicons.org/icons/pycharm.svg" height="20em" align="center" alt="PyCharm" title="PyCharm"/>](https://www.jetbrains.com/pycharm/)
 	- Vikunja [<img src="https://kolaente.dev/vikunja/frontend/raw/branch/main/public/favicon.ico" height="20em" align="center" alt="Vikunja" title="Vikunja"/>](https://vikunja.io)
 
+[![Visits Badge](https://badges.pufler.dev/visits/puf17640/git-badges)](https://badges.pufler.dev)
 *Right now I am working on an application to learn vocab, but I don't know if I should make it Open-Source, because maybe some students can have a look at the code and find "hacks" which I also know. What dou you think, should I make it Open-Source?*
