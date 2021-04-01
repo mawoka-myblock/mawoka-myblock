@@ -27,4 +27,5 @@
 	- Vikunja [<img src="https://kolaente.dev/vikunja/frontend/raw/branch/main/public/favicon.ico" height="20em" align="center" alt="Vikunja" title="Vikunja"/>](https://vikunja.io)
 
 [![Visits Badge](https://badges.pufler.dev/visits/mawoka-myblock/mawoka-myblock)](https://mawoka.eu.org/lol)
+
 *Right now I am working on an application to learn vocab, but I don't know if I should make it Open-Source, because maybe some students can have a look at the code and find "hacks" which I also know. What dou you think, should I make it Open-Source?*
