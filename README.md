@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://github.com/mawoka-myblock/mawoka-myblock/raw/main/intro.gif" />
 </p>
@@ -27,5 +28,12 @@
 	- Vikunja [<img src="https://kolaente.dev/vikunja/frontend/raw/branch/main/public/favicon.ico" height="20em" align="center" alt="Vikunja" title="Vikunja"/>](https://vikunja.io)
 
 [![Visits Badge](https://badges.pufler.dev/visits/mawoka-myblock/mawoka-myblock)](https://mawoka.eu.org/lol)
+
+## Social-Stuff:
+
+
+
+![Mastodon Follow](https://img.shields.io/mastodon/follow/000197929?domain=https%3A%2F%2Fmastodon.online&style=social)
+
 
 *Right now I am working on an application to learn vocab, but I don't know if I should make it Open-Source, because maybe some students can have a look at the code and find "hacks" which I also know. What dou you think, should I make it Open-Source?*
