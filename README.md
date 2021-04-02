@@ -16,7 +16,7 @@
 		- 🏗️ Building awful buildings 🏢
 - <img src="https://simpleicons.org/icons/linux.svg" height="30em" align="center" alt="Linux" title="Linux"/> **Linux:**
 	- Systemadministration 
-	- I'm using Manjaro [<img src="https://manjaro.org/img/logo.svg" height="15em" align="center" alt="Manjaro" title="Manjaro"/>](https://manjaro.org) with KDE  <img src="https://kde.org/media/images/trademark_kde_gear_black_logo.png" height="15em" align="center" alt="KDE" title="KDE"/> Plasma [<img src="https://kde.org/images/plasma.svg" height="15em" align="center" alt="Plasma" title="Plasma"/>](https://kde.org/plasma-desktop)
+	- I'm using Manjaro [<img src="https://manjaro.org/img/logo.svg" height="15em" align="center" alt="Manjaro" title="Manjaro"/>](https://manjaro.org) with KDE  [<img src="https://kde.org/media/images/trademark_kde_gear_black_logo.png" height="15em" align="center" alt="KDE" title="KDE"/>](https://kde.org) Plasma [<img src="https://kde.org/images/plasma.svg" height="15em" align="center" alt="Plasma" title="Plasma"/>](https://kde.org/plasma-desktop)
 	- Sadly I'm kind of forced to use Windows, because EpicGames doesn't support Linux 😥
 	- On my servers I am using Debian  [<img src="https://www.debian.org/logos/openlogo-nd.svg" height="15em" align="center" alt="Debian" title="Debian"/>](https://debian.org)
 ## Other stuff:
