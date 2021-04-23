@@ -31,6 +31,13 @@
 
 ## Stats:
 <!--START_SECTION:waka-->
+```text
+Week: 15 April, 2021 - 22 April, 2021
+
+Other Stuff   1 hrs 27 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀   83.77 % 
+Python        0 hrs 14 mins   ⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   13.56 % 
+Bash          0 hrs 3 mins    ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.46 % 
+```
 <!--END_SECTION:waka-->
 
 ## Social-Stuff:
