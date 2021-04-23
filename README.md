@@ -29,6 +29,10 @@
 
 [![Visits Badge](https://badges.pufler.dev/visits/mawoka-myblock/mawoka-myblock)](https://mawoka.eu.org/lol)
 
+## Stats:
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ## Social-Stuff:
 
 
