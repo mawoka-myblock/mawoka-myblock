@@ -14,3 +14,7 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          COMMIT_MESSAGE: Automatically updated stats
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
+          API_BASE_URL: https://time.mawoka.eu.org/api
