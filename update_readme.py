@@ -26,7 +26,9 @@ with open("questions/asked_questions.json", "r") as f:
     asked_questions.append(ua_questions[random_question])
 
 
-
+def last_qeustion():
+    with open("questions/last_week.txt", "r") as f:
+        return f.read()
 
 
 global header, params
@@ -105,6 +107,7 @@ readme = f"""
 [![](https://img.shields.io/badge/-Yes-brightgreen?style=for-the-badge)](https://go.mawoka.eu.org/NxVd8)      [![](https://img.shields.io/badge/-No-red?style=for-the-badge)](https://go.mawoka.eu.org/HfH3s)
 
 ## Results from last week
+### For the following question: {last_qeustion()}
 |Yes/No |Percent|
 |-------|-------|
 |**Yes**| {int(round(yes_percent, 2) * 100)}|
@@ -163,6 +166,9 @@ Vue           0 hrs 3 mins    ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 
 """
+
+with open("questions/last_week.txt", "w") as f:
+    f.write(ua_questions[random_question])
 
 
 with open("questions/asked_questions.json", "w") as f:
