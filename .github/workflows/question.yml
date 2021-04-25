@@ -32,12 +32,11 @@ jobs:
           python3 update_readme.py
           cat README.md
 
-
-        - name: Commit and push
-          run: |-
-          git diff
-          git config --global user.email "actions@users.noreply.github.com"
-          git config --global user.name "README-bot"
-          git add -A
-          git commit -m "Updated poll" || exit 0
-          git push
+      - name: Commit and push
+        run: |-
+        git diff
+        git config --global user.email "actions@users.noreply.github.com"
+        git config --global user.name "README-bot"
+        git add -A
+        git commit -m "Updated poll" || exit 0
+        git push
