@@ -1,7 +1,9 @@
 
+<!--
 <p align="center">
   <img src="https://github.com/mawoka-myblock/mawoka-myblock/raw/main/intro.gif" />
 </p>
+-->
 
 ### My Main Projects are on [Gitlab](https://gitlab.com/mawoka) <img src="https://about.gitlab.com/images/press/logo/svg/gitlab-icon-rgb.svg" height="40em" align="center" alt="GitLab" title="GitLab"/>
 
@@ -42,6 +44,7 @@ Vue           0 hrs 3 mins    ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 ```
 <!--END_SECTION:waka-->
 
+> Note: If there is a language, it doesn't mean that I am good at this language!
 ## Social-Stuff:
 
 
