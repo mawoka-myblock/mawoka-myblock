@@ -7,6 +7,20 @@
 
 ### My Main Projects are on [Gitlab](https://gitlab.com/mawoka) <img src="https://about.gitlab.com/images/press/logo/svg/gitlab-icon-rgb.svg" height="40em" align="center" alt="GitLab" title="GitLab"/>
 
+# Question
+## Do you sth?
+
+[![](https://img.shields.io/badge/-Yes-brightgreen?style=for-the-badge)](https://go.mawoka.eu.org/NxVd8)      [![](https://img.shields.io/badge/-No-red?style=for-the-badge)](https://go.mawoka.eu.org/HfH3s)
+
+## Results from last week
+|Yes/No |Percent|
+|-------|-------|
+|**Yes**| 70|
+|**No** | 30|
+
+
+
+
 ## My "Skills":
  -  <img src="https://simpleicons.org/icons/python.svg" height="17em" align="center" alt="Python" title="Python"/> **Python:**
 	-	[PyWebIO](https://github.com/wang0618/PyWebIO) 
