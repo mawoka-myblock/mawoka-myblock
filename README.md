@@ -1,4 +1,7 @@
 
+
+
+
 <!--
 <p align="center">
   <img src="https://github.com/mawoka-myblock/mawoka-myblock/raw/main/intro.gif" />
@@ -8,15 +11,15 @@
 ### My Main Projects are on [Gitlab](https://gitlab.com/mawoka) <img src="https://about.gitlab.com/images/press/logo/svg/gitlab-icon-rgb.svg" height="40em" align="center" alt="GitLab" title="GitLab"/>
 
 # Question
-## Do you sth?
+## Do you use twitter?
 
 [![](https://img.shields.io/badge/-Yes-brightgreen?style=for-the-badge)](https://go.mawoka.eu.org/NxVd8)      [![](https://img.shields.io/badge/-No-red?style=for-the-badge)](https://go.mawoka.eu.org/HfH3s)
 
 ## Results from last week
 |Yes/No |Percent|
 |-------|-------|
-|**Yes**| 70|
-|**No** | 30|
+|**Yes**| 38|
+|**No** | 62|
 
 
 
@@ -67,3 +70,6 @@ Vue           0 hrs 3 mins    ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 
 *Right now I am working on an application to learn vocab, but I don't know if I should make it Open-Source, because maybe some students can have a look at the code and find "hacks" which I also know. What dou you think, should I make it Open-Source?*
+
+
+
