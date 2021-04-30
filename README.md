@@ -1,7 +1,4 @@
-
-
-
-
+<a  style="visibility: hidden;"  rel="me"  href="https://mastodon.online/@Mawoka"></a>
 <!--
 <p align="center">
   <img src="https://github.com/mawoka-myblock/mawoka-myblock/raw/main/intro.gif" />
