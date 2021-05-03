@@ -105,7 +105,7 @@ readme = f"""
 ## {ua_questions[random_question]}
 
 [![](https://img.shields.io/badge/-Yes-brightgreen?style=for-the-badge)](https://go.mawoka.eu.org/NxVd8)      [![](https://img.shields.io/badge/-No-red?style=for-the-badge)](https://go.mawoka.eu.org/HfH3s)
-
+Results are published every Sunday at 2:00AM
 ## Results from last week
 ### For the following question: {last_qeustion()}
 |Yes/No |Percent|
