@@ -1,4 +1,7 @@
-<a  style="visibility: hidden;"  rel="me"  href="https://mastodon.online/@Mawoka"></a>
+
+
+
+
 <!--
 <p align="center">
   <img src="https://github.com/mawoka-myblock/mawoka-myblock/raw/main/intro.gif" />
@@ -8,16 +11,16 @@
 ### My Main Projects are on [Gitlab](https://gitlab.com/mawoka) <img src="https://about.gitlab.com/images/press/logo/svg/gitlab-icon-rgb.svg" height="40em" align="center" alt="GitLab" title="GitLab"/>
 
 # Question
-## Do you use Android on your Phone?
+## Do you like GitHub more than GitLab?
 
 [![](https://img.shields.io/badge/-Yes-brightgreen?style=for-the-badge)](https://go.mawoka.eu.org/NxVd8)      [![](https://img.shields.io/badge/-No-red?style=for-the-badge)](https://go.mawoka.eu.org/HfH3s)
 
 ## Results from last week
-### For the following question: 
+### For the following question: Do you use Android on your Phone?
 |Yes/No |Percent|
 |-------|-------|
-|**Yes**| 38|
-|**No** | 62|
+|**Yes**| 85|
+|**No** | 15|
 
 
 
@@ -49,13 +52,13 @@
 ## Stats:
 <!--START_SECTION:waka-->
 ```text
-Week: 25 April, 2021 - 02 May, 2021
+Week: 17 April, 2021 - 24 April, 2021
 
-HTML         10 hrs 48 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   57.21 % 
-CSS          2 hrs 20 mins   ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   12.33 % 
-JavaScript   2 hrs 7 mins    ⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.21 % 
-markdown     1 hrs 20 mins   ⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   07.06 % 
-Python       1 hrs 0 mins    ⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   05.27 % 
+Other Stuff   3 hrs 2 mins    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   58.21 % 
+HTML          1 hrs 3 mins    ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   20.03 % 
+Python        0 hrs 47 mins   ⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   14.87 % 
+JSON          0 hrs 6 mins    ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.77 % 
+Vue           0 hrs 3 mins    ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.08 % 
 ```
 <!--END_SECTION:waka-->
 
