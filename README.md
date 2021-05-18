@@ -8,12 +8,13 @@
 </p>
 -->
 
-### My Main Projects are on [Gitlab](https://gitlab.com/mawoka) <img src="https://about.gitlab.com/images/press/logo/svg/gitlab-icon-rgb.svg" height="40em" align="center" alt="GitLab" title="GitLab"/>
+
 
 # Question
 ## Do you use Facebook?
 
 [![](https://img.shields.io/badge/-Yes-brightgreen?style=for-the-badge)](https://go.mawoka.eu.org/NxVd8)      [![](https://img.shields.io/badge/-No-red?style=for-the-badge)](https://go.mawoka.eu.org/HfH3s)
+
 Results are published every Sunday at 2:00AM
 ## Results from last week
 ### For the following question: Do you like my README?
