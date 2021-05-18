@@ -68,7 +68,7 @@ HTML     0 hrs 16 mins   ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 
 
-![Mastodon Follow](https://img.shields.io/mastodon/follow/000197929?domain=https%3A%2F%2Fmastodon.online&style=social)
+[![Mastodon Follow](https://img.shields.io/mastodon/follow/000197929?domain=https%3A%2F%2Fmastodon.online&style=social)](https://mastodon.online/invite/Mhw5dbRx)
 
 
 *Right now I am working on an application to learn vocab, but I don't know if I should make it Open-Source, because maybe some students can have a look at the code and find "hacks" which I also know. What dou you think, should I make it Open-Source?*
