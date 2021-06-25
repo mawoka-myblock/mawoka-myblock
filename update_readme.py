@@ -114,11 +114,8 @@ Results are published every Sunday at 2:00AM
 ### For the following question: {last_qeustion()}
 
 |Yes/No |Percent|
-
 |-------|-------|
-
 |**Yes**| {int(round(yes_percent, 2) * 100)}|
-
 |**No** | {int(round(no_percent, 2) * 100)}|
 
 ## My "Skills":
