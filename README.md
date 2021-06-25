@@ -23,11 +23,8 @@ Results are published every Sunday at 2:00AM
 ### For the following question: Do you use Mastodon?
 
 |Yes/No |Percent|
-
 |-------|-------|
-
 |**Yes**| 100|
-
 |**No** | 0|
 
 ## My "Skills":
