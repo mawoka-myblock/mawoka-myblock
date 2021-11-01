@@ -12,7 +12,7 @@
 -->
 # Question
 
-## Did you start coding as a teenager?
+## Are you self-hosting anything?
 
 [![](https://img.shields.io/badge/-Yes-brightgreen?style=for-the-badge)](https://go.mawoka.eu.org/NxVd8) [![](https://img.shields.io/badge/-No-red?style=for-the-badge)](https://go.mawoka.eu.org/HfH3s)
 
@@ -20,12 +20,12 @@ Results are published every Sunday at 2:00AM
 
 ## Results from last week
 
-### For the following question: Do you ever read the ToS?
+### For the following question: Did you start coding as a teenager?
 
 |Yes/No |Percent|
 |-------|-------|
-|**Yes**| 0|
-|**No** | 100|
+|**Yes**| 100|
+|**No** | 0|
 
 ## My "Skills":
 
@@ -59,20 +59,28 @@ Results are published every Sunday at 2:00AM
 - Vikunja [<img src="https://kolaente.dev/vikunja/frontend/raw/branch/main/public/favicon.ico" height="20em" align="center" alt="Vikunja" title="Vikunja"/>](https://vikunja.io)
 -->
 
-[![Visits Badge](https://badges.pufler.dev/visits/mawoka-myblock/mawoka-myblock)](https://mawoka.eu.org/lol.html)
+[![Visits Badge](https://badges.pufler.dev/visits/mawoka-myblock/mawoka-myblock)](https://mawoka.eu.org/lol)
 
 ## Stats:
 
 <!--START_SECTION:waka-->
-```text
-Week: 25 October, 2021 - 31 October, 2021
 
-Svelte        1 hrs 30 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   41.07 % 
-Python        0 hrs 40 mins   ⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.04 % 
-JavaScript    0 hrs 27 mins   ⣿⣿⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   12.47 % 
-Docker        0 hrs 25 mins   ⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.47 % 
-Other Stuff   0 hrs 8 mins    ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.67 % 
+```text
+
+Week: 17 April, 2021 - 24 April, 2021
+
+Other Stuff 3 hrs 2 mins ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀ 58.21 %
+
+HTML 1 hrs 3 mins ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀ 20.03 %
+
+Python 0 hrs 47 mins ⣿⣿⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀ 14.87 %
+
+JSON 0 hrs 6 mins ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀ 01.77 %
+
+Vue 0 hrs 3 mins ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀ 01.08 %
+
 ```
+
 <!--END_SECTION:waka-->
 
 > Note: If there is a language, it doesn't mean that I am good at this language!
