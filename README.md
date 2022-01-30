@@ -51,21 +51,23 @@ Results are published every Sunday at 2:00AM
 
 ## My "Skills":
 
--   <img src="https://simpleicons.org/icons/python.svg" height="17em" align="center" alt="Python" title="Python"/> **Python**
--   <img src="https://simpleicons.org/icons/java.svg" height="17em" align="center" alt="Java" title="Java"/> **Java**
--   <img src="https://simpleicons.org/icons/javascript.svg" height="17em" align="center" alt="JavaScript" title="JavaScript"/> **JavaScript**
--   <img src="https://simpleicons.org/icons/mongodb.svg" height="17em" align="center" alt="MongoDB" title="MongoDB"/> **MongoDB**
+- <img src="https://simpleicons.org/icons/python.svg" height="17em" alt="Python" title="Python"/> **Python**
+- <img src="https://simpleicons.org/icons/javascript.svg" height="17em" alt="JavaScript" title="JavaScript"/> **JavaScript**
+- <img src="https://simpleicons.org/icons/mongodb.svg" height="17em" alt="MongoDB" title="MongoDB"/> **MongoDB**
+- <img src="https://simpleicons.org/icons/rust.svg" height="17em" alt="Rust" title="Rust"> **Rust**
+- <img src="https://simpleicons.org/icons/svelte.svg" height="17em" alt="Svelte" title="Svelte"> **Svelte**
+- <img src="https://simpleicons.org/icons/tailwindcss.svg" height="17em" alt="Tailwind CSS" title="Tailwind CSS"> **Tailwind CSS**
 
 ---
 
--   <img src="https://simpleicons.org/icons/linux.svg" height="30em" align="center" alt="Linux" title="Linux"/> **Linux:**
+-   <img src="https://simpleicons.org/icons/linux.svg" height="20em" align="center" alt="Linux" title="Linux"/> **Linux:**
 
     -   Systemadministration
 
     -   I'm using
         Manjaro [<img src="https://manjaro.org/img/logo.svg" height="15em" align="center" alt="Manjaro" title="Manjaro"/>](https://manjaro.org)
         with
-        KDE [<img src="https://kde.org/media/images/trademark_kde_gear_black_logo.png" height="15em" align="center" alt="KDE" title="KDE"/>](https://kde.org)
+        KDE [<img src="https://simpleicons.org/icons/kde.svg" height="15em" align="center" alt="KDE" title="KDE"/>](https://kde.org)
         Plasma [<img src="https://kde.org/images/plasma.svg" height="15em" align="center" alt="Plasma" title="Plasma"/>](https://kde.org/plasma-desktop)
 
     -   On my servers I am using
@@ -106,7 +108,6 @@ TOML         0 hrs 20 mins   ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 <!--END_SECTION:waka-->
 
-> Note: If there is a language, it doesn't mean that I am good at this language!
 
 ## Social-Stuff:
 
