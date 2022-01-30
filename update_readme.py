@@ -4,7 +4,6 @@ import datetime
 import urllib3
 import os
 
-
 http = urllib3.PoolManager()
 
 yes_url = os.environ.get("YES_URL", "")
@@ -14,14 +13,11 @@ shlink_tag = os.environ.get("SHLINK_TAG", "")
 base_url = os.environ.get("BASE_URL", "")
 api_key = os.environ.get("SHLINK_API_KEY", "")
 
-
 print(base_url)
 with open("questions/unasked_questions.json", "r") as f:
     ua_questions = json.load(f)
 
-
-random_question = random.randint(0, len(ua_questions)-1)
-
+random_question = random.randint(0, len(ua_questions) - 1)
 
 with open("questions/asked_questions.json", "r") as f:
     asked_questions = json.load(f)
@@ -40,27 +36,31 @@ params = (('startDate', '2021-W16'), ('endDate', '2021-W16'))
 
 def getstats(yes_no, week):
     global year, cweek
-    year = datetime.datetime.now().date().strftime("%Y")    
+    year = datetime.datetime.now().date().strftime("%Y")
     cweek = datetime.datetime.today().strftime("%U")
 
     if week == "last":
         if yes_no == "yes":
-            r = http.request('GET', f'{base_url}/rest/v2/short-urls/{yes_url}/visits?startDate={year}-W{str(int(cweek)-1).zfill(2)}',
+            r = http.request('GET',
+                             f'{base_url}/rest/v2/short-urls/{yes_url}/visits?startDate={year}-W{str(int(cweek) - 1).zfill(2)}',
                              headers=headers)
             return r.data
         elif yes_no == "no":
-            r = http.request('GET', f'{base_url}/rest/v2/short-urls/{no_url}/visits?startDate={year}-W{str(int(cweek)-1).zfill(2)}',
+            r = http.request('GET',
+                             f'{base_url}/rest/v2/short-urls/{no_url}/visits?startDate={year}-W{str(int(cweek) - 1).zfill(2)}',
                              headers=headers)
             return r.data
         else:
             return "Error"
     elif week == "this":
         if yes_no == "yes":
-            r = http.request('GET', f'{base_url}/rest/v2/short-urls/{yes_url}/visits?startDate={year}-W{str(int(cweek)).zfill(2)}',
+            r = http.request('GET',
+                             f'{base_url}/rest/v2/short-urls/{yes_url}/visits?startDate={year}-W{str(int(cweek)).zfill(2)}',
                              headers=headers)
             return r.data
         elif yes_no == "no":
-            r = http.request('GET', f'{base_url}/rest/v2/short-urls/{no_url}/visits?startDate={year}-W{str(int(cweek)).zfill(2)}',
+            r = http.request('GET',
+                             f'{base_url}/rest/v2/short-urls/{no_url}/visits?startDate={year}-W{str(int(cweek)).zfill(2)}',
                              headers=headers)
             return r.data
         else:
@@ -68,12 +68,17 @@ def getstats(yes_no, week):
     else:
         return "Error"
 
+
 def getplayers(week):
     if week == "this":
-        r = http.request('GET', f"{base_url}/rest/v2/tags/{shlink_tag}/visits?startDate={year}-W{str(int(cweek)).zfill(2)}", headers=headers)
+        r = http.request('GET',
+                         f"{base_url}/rest/v2/tags/{shlink_tag}/visits?startDate={year}-W{str(int(cweek)).zfill(2)}",
+                         headers=headers)
         return r.data
     elif week == "last":
-        r = http.request('GET', f"{base_url}/rest/v2/tags/{shlink_tag}/visits?startDate={year}-W{str(int(cweek)-1).zfill(2)}", headers=headers)
+        r = http.request('GET',
+                         f"{base_url}/rest/v2/tags/{shlink_tag}/visits?startDate={year}-W{str(int(cweek) - 1).zfill(2)}",
+                         headers=headers)
         return r.data
     else:
         return "Error"
@@ -83,19 +88,20 @@ answer = json.loads(getstats("no", "last"))
 print(answer)
 print(answer["visits"]["pagination"]["totalItems"])
 
-
-print(json.loads(getstats("no", "last"))["visits"]["pagination"]["totalItems"], "answered no and", json.loads(getstats("yes", "last"))["visits"]["pagination"]["totalItems"], "from", json.loads(getplayers("last"))["visits"]["pagination"]["totalItems"], "answered yes")
-
+print(json.loads(getstats("no", "last"))["visits"]["pagination"]["totalItems"], "answered no and",
+      json.loads(getstats("yes", "last"))["visits"]["pagination"]["totalItems"], "from",
+      json.loads(getplayers("last"))["visits"]["pagination"]["totalItems"], "answered yes")
 
 try:
-    yes_percent = int(json.loads(getstats("yes", "last"))["visits"]["pagination"]["totalItems"]) / int(json.loads(getplayers("last"))["visits"]["pagination"]["totalItems"])
-    no_percent = int(json.loads(getstats("no", "last"))["visits"]["pagination"]["totalItems"]) / int(json.loads(getplayers("last"))["visits"]["pagination"]["totalItems"])
+    yes_percent = int(json.loads(getstats("yes", "last"))["visits"]["pagination"]["totalItems"]) / int(
+        json.loads(getplayers("last"))["visits"]["pagination"]["totalItems"])
+    no_percent = int(json.loads(getstats("no", "last"))["visits"]["pagination"]["totalItems"]) / int(
+        json.loads(getplayers("last"))["visits"]["pagination"]["totalItems"])
 except ZeroDivisionError:
     yes_percent = 0
     no_percent = 0
 print(int(round(no_percent, 2) * 100))
 print(int(round(yes_percent, 2) * 100))
-
 
 readme = f"""
 
@@ -196,15 +202,12 @@ Vue 0 hrs 3 mins ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 with open("questions/last_week.txt", "w") as f:
     f.write(ua_questions[random_question])
 
-
 with open("questions/asked_questions.json", "w") as f:
     json.dump(asked_questions, f)
-
 
 with open("questions/unasked_questions.json", "w") as f:
     del ua_questions[random_question]
     json.dump(ua_questions, f)
-
 
 with open("README.md", "w") as f:
     f.write(readme)

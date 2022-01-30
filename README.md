@@ -1,6 +1,3 @@
-
-
-
 <!--
 
 <p align="center">
@@ -10,6 +7,7 @@
 </p>
 
 -->
+<!--
 # Question
 
 ## Have you ever heard of Startpage.com?
@@ -26,22 +24,53 @@ Results are published every Sunday at 2:00AM
 |-------|-------|
 |**Yes**| 100|
 |**No** | 0|
+-->
+
+## Music:
+
+<table>
+  <thead>
+    <tr>
+      <th>📈 Top Tracks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://ltqlmq.deta.dev/click/0"><img src="https://ltqlmq.deta.dev/pic/0" width="540" height="64"></a></td>
+    </tr>
+    <tr></tr> <!-- hide gray row -->
+    <tr>
+      <td><a href="https://ltqlmq.deta.dev/click/1"><img src="https://ltqlmq.deta.dev/pic/1" width="540" height="64"></a></td>
+    </tr>
+    <tr></tr> <!-- hide gray row -->
+    <tr>
+      <td><a href="https://ltqlmq.deta.dev/click/2"><img src="https://ltqlmq.deta.dev/click/2" width="540" height="64"></a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## My "Skills":
 
-- <img src="https://simpleicons.org/icons/python.svg" height="17em" align="center" alt="Python" title="Python"/> **Python**
-- <img src="https://simpleicons.org/icons/java.svg" height="17em" align="center" alt="Java" title="Java"/> **Java**
-- <img src="https://simpleicons.org/icons/javascript.svg" height="17em" align="center" alt="JavaScript" title="JavaScript"/> **JavaScript**
-- <img src="https://simpleicons.org/icons/mongodb.svg" height="17em" align="center" alt="MongoDB" title="MongoDB"/> **MongoDB**
+-   <img src="https://simpleicons.org/icons/python.svg" height="17em" align="center" alt="Python" title="Python"/> **Python**
+-   <img src="https://simpleicons.org/icons/java.svg" height="17em" align="center" alt="Java" title="Java"/> **Java**
+-   <img src="https://simpleicons.org/icons/javascript.svg" height="17em" align="center" alt="JavaScript" title="JavaScript"/> **JavaScript**
+-   <img src="https://simpleicons.org/icons/mongodb.svg" height="17em" align="center" alt="MongoDB" title="MongoDB"/> **MongoDB**
 
 ---
-- <img src="https://simpleicons.org/icons/linux.svg" height="30em" align="center" alt="Linux" title="Linux"/> **Linux:**
 
-	- Systemadministration
+-   <img src="https://simpleicons.org/icons/linux.svg" height="30em" align="center" alt="Linux" title="Linux"/> **Linux:**
 
-	- I'm using Manjaro [<img src="https://manjaro.org/img/logo.svg" height="15em" align="center" alt="Manjaro" title="Manjaro"/>](https://manjaro.org) with KDE [<img src="https://kde.org/media/images/trademark_kde_gear_black_logo.png" height="15em" align="center" alt="KDE" title="KDE"/>](https://kde.org) Plasma [<img src="https://kde.org/images/plasma.svg" height="15em" align="center" alt="Plasma" title="Plasma"/>](https://kde.org/plasma-desktop)
+    -   Systemadministration
 
-	- On my servers I am using Debian [<img src="https://www.debian.org/logos/openlogo-nd.svg" height="15em" align="center" alt="Debian" title="Debian"/>](https://debian.org)
+    -   I'm using
+        Manjaro [<img src="https://manjaro.org/img/logo.svg" height="15em" align="center" alt="Manjaro" title="Manjaro"/>](https://manjaro.org)
+        with
+        KDE [<img src="https://kde.org/media/images/trademark_kde_gear_black_logo.png" height="15em" align="center" alt="KDE" title="KDE"/>](https://kde.org)
+        Plasma [<img src="https://kde.org/images/plasma.svg" height="15em" align="center" alt="Plasma" title="Plasma"/>](https://kde.org/plasma-desktop)
+
+    -   On my servers I am using
+        Debian [<img src="https://www.debian.org/logos/openlogo-nd.svg" height="15em" align="center" alt="Debian" title="Debian"/>](https://debian.org)
+
 <!--
 ## Other stuff:
 
@@ -64,15 +93,17 @@ Results are published every Sunday at 2:00AM
 ## Stats:
 
 <!--START_SECTION:waka-->
+
 ```text
 Week: 18 January, 2022 - 24 January, 2022
 
-Rust         8 hrs 31 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   47.89 % 
-Svelte       3 hrs 54 mins   ⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.98 % 
-Python       2 hrs 45 mins   ⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.44 % 
-JavaScript   0 hrs 33 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.08 % 
-TOML         0 hrs 20 mins   ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.87 % 
+Rust         8 hrs 31 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   47.89 %
+Svelte       3 hrs 54 mins   ⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.98 %
+Python       2 hrs 45 mins   ⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.44 %
+JavaScript   0 hrs 33 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.08 %
+TOML         0 hrs 20 mins   ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.87 %
 ```
+
 <!--END_SECTION:waka-->
 
 > Note: If there is a language, it doesn't mean that I am good at this language!
@@ -80,7 +111,3 @@ TOML         0 hrs 20 mins   ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 ## Social-Stuff:
 
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/000197929?domain=https%3A%2F%2Fmastodon.online&style=social)](https://mastodon.online/invite/Mhw5dbRx)
-
-
-
-
