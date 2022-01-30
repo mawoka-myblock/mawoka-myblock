@@ -44,7 +44,7 @@ Results are published every Sunday at 2:00AM
     </tr>
     <tr></tr> <!-- hide gray row -->
     <tr>
-      <td><a href="https://ltqlmq.deta.dev/click/2"><img src="https://ltqlmq.deta.dev/click/2" width="540" height="64"></a></td>
+      <td><a href="https://ltqlmq.deta.dev/click/2"><img src="https://ltqlmq.deta.dev/pic/2" width="540" height="64"></a></td>
     </tr>
   </tbody>
 </table>
