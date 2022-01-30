@@ -65,7 +65,6 @@ def hello_world(index: int):
     vid_id = youtube.playlistItems().list(playlistId="LM", part="snippet").execute()
     # print(json.dumps(vid_id["items"][0]["snippet"]))
     thumbnail_url = vid_id["items"][int(index)]["snippet"]["thumbnails"]["default"]["url"]
-    print(thumbnail_url)
     req = requests.get(thumbnail_url)
     # print(thumbnail_url)
     data = {

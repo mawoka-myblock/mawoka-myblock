@@ -31,7 +31,7 @@ Results are published every Sunday at 2:00AM
 <table>
   <thead>
     <tr>
-      <th>📈 Top Tracks</th>
+      <th>🥰 Recently liked trackc</th>
     </tr>
   </thead>
   <tbody>
