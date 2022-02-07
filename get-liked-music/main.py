@@ -6,6 +6,7 @@ from flask import Flask, redirect, Response
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 import base64
+from google_auth_oauthlib.flow import InstalledAppFlow
 from jinja2 import Environment, select_autoescape
 import requests
 
@@ -17,24 +18,27 @@ google_data = {}
 with open("client_secrets.json", "r") as f:
     google_data = json.load(f)["web"]
 SCOPES = ['https://www.googleapis.com/auth/youtube']
-
-# flow = InstalledAppFlow.from_client_secrets_file("client_secrets.json", SCOPES)
-#
-# flow.redirect_uri = "http://localhost"
-
-
-# authorization_url, state = flow.authorization_url(
-#     # Enable offline access so that you can refresh an access token without
-#     # re-prompting the user for permission. Recommended for web server apps.
-#     access_type='offline',
-#     prompt='consent',google_data
-#     # approval_prompt='force',
-#     # Enable incremental authorization. Recommended as a best practice.
-#     include_granted_scopes='true')
-
 refresh_token = os.getenv("REFRESH_TOKEN")
-# flow.fetch_token(code=code)
+"""
+flow = InstalledAppFlow.from_client_secrets_file("client_secrets.json", SCOPES)
 
+flow.redirect_uri = "http://localhost"
+
+
+authorization_url, state = flow.authorization_url(
+    # Enable offline access so that you can refresh an access token without
+    # re-prompting the user for permission. Recommended for web server apps.
+    access_type='offline',
+    prompt='consent',
+    # approval_prompt='force',
+    # Enable incremental authorization. Recommended as a best practice.
+    include_granted_scopes='true')
+
+print(authorization_url)
+
+flow.fetch_token(code="TOKEN")
+print(flow.credentials.refresh_token)
+"""
 
 # print(creds.valid)
 app = Flask(__name__)

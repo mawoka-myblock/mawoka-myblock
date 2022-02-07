@@ -4,3 +4,4 @@ client_secrets.json
 .deta
 venv
 .vscode
+__pycache__
