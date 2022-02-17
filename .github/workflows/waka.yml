@@ -12,7 +12,7 @@ jobs:
     name: Update Stats via Wakapi
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@v0.1.5
+      - uses: athul/waka-readme@07e44d14235ffe5b240b1c2bcb0c71810ce23ccb
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
