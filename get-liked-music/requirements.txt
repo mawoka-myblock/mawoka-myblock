@@ -4,3 +4,4 @@ google-auth-oauthlib
 jinja2
 flask
 requests
+deta

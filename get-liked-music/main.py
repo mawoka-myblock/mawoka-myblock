@@ -1,3 +1,4 @@
+import datetime
 import json
 import os
 
@@ -9,11 +10,14 @@ import base64
 from google_auth_oauthlib.flow import InstalledAppFlow
 from jinja2 import Environment, select_autoescape
 import requests
+from deta import Deta
 
 env = Environment(
     loader=jinja2.FileSystemLoader('./'),
     autoescape=True
 )
+deta = Deta()
+db = deta.Base('get-liked-music')
 google_data = {}
 with open("client_secrets.json", "r") as f:
     google_data = json.load(f)["web"]
@@ -60,10 +64,13 @@ def hello_world(index: int):
         return "", 404
     if int(index) >= 5:
         return "", 404
+    res = db.get(f"pic:{index}")
+    if res is not None:
+        print("Cached")
+        return Response(res["value"], mimetype="image/svg+xml")
     creds = Credentials(refresh_token, refresh_token=refresh_token,
                         token_uri="https://accounts.google.com/o/oauth2/token",
                         client_id=google_data["client_id"], client_secret=google_data["client_secret"])
-    print(creds.valid)
     youtube = build(
         api_service_name, api_version, credentials=creds)
     vid_id = youtube.playlistItems().list(playlistId="LM", part="snippet").execute()
@@ -78,7 +85,9 @@ def hello_world(index: int):
         "url": f'https://www.youtube.com/watch?v={vid_id["items"][int(index)]["snippet"]["resourceId"]["videoId"]}'
     }
     template = env.get_template("svg_template.jinja2")
-    return Response(template.render(data), mimetype="image/svg+xml")
+    rendered_template = template.render(data)
+    db.put(rendered_template, f"pic:{index}", expire_at=datetime.datetime.now() + datetime.timedelta(hours=1))
+    return Response(rendered_template, mimetype="image/svg+xml")
 
 
 @app.route('/click/<index>', methods=["GET"])
@@ -89,13 +98,21 @@ def click(index: int):
         return "", 404
     if int(index) >= 5:
         return "", 404
+
+    res = db.get(f"click:{index}")
+    if res is not None:
+        print("Cached")
+        return redirect(
+            res["value"],
+            code=301)
     creds = Credentials(refresh_token, refresh_token=refresh_token,
                         token_uri="https://accounts.google.com/o/oauth2/token",
                         client_id=google_data["client_id"], client_secret=google_data["client_secret"])
-    print(creds.valid)
     youtube = build(
         api_service_name, api_version, credentials=creds)
     vid_id = youtube.playlistItems().list(playlistId="LM", part="snippet").execute()
+    vid_url = f'https://www.youtube.com/watch?v={vid_id["items"][int(index)]["snippet"]["resourceId"]["videoId"]}'
+    db.put(vid_url, f"click:{index}", expire_at=datetime.datetime.now() + datetime.timedelta(hours=1))
     return redirect(
-        f'https://www.youtube.com/watch?v={vid_id["items"][int(index)]["snippet"]["resourceId"]["videoId"]}',
+        vid_url,
         code=301)
