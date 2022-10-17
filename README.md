@@ -96,7 +96,9 @@ Results are published every Sunday at 2:00AM
 
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+Week: 10 October, 2022 - 16 October, 2022
+
+Python      0 hrs 27 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶   98.95 % 
 ```
 <!--END_SECTION:waka-->
 
