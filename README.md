@@ -98,7 +98,7 @@ Results are published every Sunday at 2:00AM
 ```text
 Week: 10 October, 2022 - 16 October, 2022
 
-Python      0 hrs 27 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶   98.95 % 
+Python      0 hrs 27 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶   98.96 % 
 ```
 <!--END_SECTION:waka-->
 
