@@ -26,7 +26,7 @@ Results are published every Sunday at 2:00AM
 |**No** | 0|
 -->
 
-## Music:
+## Music
 
 <table>
   <thead>
@@ -49,7 +49,7 @@ Results are published every Sunday at 2:00AM
   </tbody>
 </table>
 
-## My "Skills":
+## My "Skills"
 
 - <img src="https://simpleicons.org/icons/python.svg" height="17em" alt="Python" title="Python"/> **Python**
 - <img src="https://simpleicons.org/icons/javascript.svg" height="17em" alt="JavaScript" title="JavaScript"/> **JavaScript**
@@ -65,7 +65,7 @@ Results are published every Sunday at 2:00AM
     -   Systemadministration
 
     -   I'm using
-        Manjaro [<img src="https://manjaro.org/img/logo.svg" height="15em" align="center" alt="Manjaro" title="Manjaro"/>](https://manjaro.org)
+        Manjaro [<img src="https://simpleicons.org/icons/manjaro.svg" height="15em" align="center" alt="Manjaro" title="Manjaro"/>](https://manjaro.org)
         with
         KDE [<img src="https://simpleicons.org/icons/kde.svg" height="15em" align="center" alt="KDE" title="KDE"/>](https://kde.org)
         Plasma [<img src="https://kde.org/images/plasma.svg" height="15em" align="center" alt="Plasma" title="Plasma"/>](https://kde.org/plasma-desktop)
@@ -90,23 +90,13 @@ Results are published every Sunday at 2:00AM
 - Vikunja [<img src="https://kolaente.dev/vikunja/frontend/raw/branch/main/public/favicon.ico" height="20em" align="center" alt="Vikunja" title="Vikunja"/>](https://vikunja.io)
 -->
 
-[![Visits Badge](https://badges.pufler.dev/visits/mawoka-myblock/mawoka-myblock)](https://mawoka.eu/lol)
+[.](https://mawoka.eu/lol)
 
-## Stats:
+## Stats
 
-<!--START_SECTION:waka-->
-```text
-Week: 17 October, 2022 - 23 October, 2022
-
-Python       1 hrs 15 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀   63.26 % 
-YAML         0 hrs 18 mins   ⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   15.04 % 
-PHP          0 hrs 9 mins    ⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   07.43 % 
-Docker       0 hrs 5 mins    ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.97 % 
-Dockerfile   0 hrs 3 mins    ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.46 % 
-```
-<!--END_SECTION:waka-->
+![Wakapi Stats](https://github-readme-stats.vercel.app/api/wakatime?username=Mawoka&api_domain=time.mawoka.eu.org&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=Wakapi%20Week%20Stats&layout=compact)
 
 
-## Social-Stuff:
+## Social-Stuff
 
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/000197929?domain=https%3A%2F%2Fmastodon.online&style=social)](https://mastodon.online/invite/Mhw5dbRx)
