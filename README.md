@@ -36,15 +36,15 @@ Results are published every Sunday at 2:00AM
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://ltqlmq.deta.dev/click/0"><img src="https://ltqlmq.deta.dev/pic/0" width="540" height="64"></a></td>
+      <td><a href="https://get-liked-music-readme.mawoka.eu/click/0"><img src="https://get-liked-music-readme.mawoka.eu/pic/0" width="540" height="64"></a></td>
     </tr>
     <tr></tr> <!-- hide gray row -->
     <tr>
-      <td><a href="https://ltqlmq.deta.dev/click/1"><img src="https://ltqlmq.deta.dev/pic/1" width="540" height="64"></a></td>
+      <td><a href="https://get-liked-music-readme.mawoka.eu/click/1"><img src="https://get-liked-music-readme.mawoka.eu/pic/1" width="540" height="64"></a></td>
     </tr>
     <tr></tr> <!-- hide gray row -->
     <tr>
-      <td><a href="https://ltqlmq.deta.dev/click/2"><img src="https://ltqlmq.deta.dev/pic/2" width="540" height="64"></a></td>
+      <td><a href="https://get-liked-music-readme.mawoka.eu/click/2"><img src="https://get-liked-music-readme.mawoka.eu/pic/2" width="540" height="64"></a></td>
     </tr>
   </tbody>
 </table>
